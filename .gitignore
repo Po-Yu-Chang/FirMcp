@@ -1,0 +1,89 @@
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.ide/
+
+# Rider
+.idea/
+*.sln.iml
+
+# NuGet Packages
+packages/
+*.nupkg
+# Exclude packages folder, but not packages.config or packages.json (for VS)
+# packages/*
+# !packages/packages.config
+# !packages/packages.json
+# NuGet v3+ packages folder
+.nuget/
+
+# .NET Core
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Platform-specific build artifacts
+# Android
+*.apk
+*.aab
+*.ap_
+
+# iOS/macOS
+*.ipa
+*.dSYM/
+DerivedData/
+
+# Windows
+AppPackages/
+BundleArtifacts/
+PackageUploads/
+*.appx
+*.appxbundle
+*.appxupload
+*.msix
+*.msixbundle
+*.pfx
+*.cer
+
+# Test Results and Coverage
+*.trx
+*.coverage
+*.coveragexml
+TestResults/
+coveragereport/
+
+# Environment files
+.env
+
+# Secrets often contain sensitive information and should not be committed.
+# Consider using user secrets or environment variables for development.
+# If you must commit a template, use a .template or .example extension.
+appsettings.Development.json
+secrets.json
+*.secrets.json
+
+# Other
+*.swp
+*~
