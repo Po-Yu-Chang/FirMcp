@@ -25,12 +25,32 @@ The `MyMcpServer` is the main application within this project. It demonstrates h
 
 2. **Run the server:**
 
-   The server is configured to run via stdio when launched through the `.vscode/mcp.json` configuration.
+   The server is configured to run via stdio when launched through the `.vscode/mcp.json` configuration (see below).
    Alternatively, you can run the project directly:
 
    ```bash
    dotnet run --project MyMcpServer/MyMcpServer.csproj
    ```
+
+### MCP Configuration (`.vscode/mcp.json`)
+
+This file configures how VS Code interacts with the MCP server. The current configuration specifies that the server (`MyMcpServer`) communicates via standard input/output (stdio) and is launched by running the `MyMcpServer.csproj` project.
+
+```json
+{
+  "servers": {
+    "MyMcpServer": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/MyMcpServer.csproj"
+      ]
+    }
+  }
+}
+```
 
 ### Project Structure
 
