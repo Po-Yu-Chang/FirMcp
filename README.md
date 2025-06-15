@@ -28,11 +28,11 @@
 我們的 MCP 螢幕截圖伺服器專門針對**視窗截圖**進行優化，而非全螢幕截圖。以下是針對記事本應用程式的展示：
 
 #### 1. 記事本視窗截圖
-![記事本視窗截圖](Images/notepad_window_screenshot.png)
+![記事本視窗截圖](Images/test_final_annotated.png)
 *▲ 記事本獨立視窗截圖範例 - 展示視窗截圖功能*
 
 #### 2. 選單標註功能
-![記事本選單標註](Images/notepad_window_annotated.png)
+![記事本選單標註](Images/test_final_screenshot.png)
 *▲ 針對記事本三大主要選單進行重點標註*
 
 #### 📋 標註功能說明
